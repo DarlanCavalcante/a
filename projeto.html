@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alimentação Solidária - Projetos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="site-pad">
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo"><img src="imagem/voluntario.jpg" alt="Logo Alimentação Solidária" class="logo-img"> <span>💙 Alimentação Solidária</span></div>
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <ul id="navMenu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="projeto.html" class="active">Projetos</a></li>
+                <li><a href="cadastro.html" class="btn-secondary">Seja Voluntário</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <!-- background slideshow placed behind the content (lateral sliding) -->
+        <div class="hero-bg" id="heroBg">
+            <div class="hero-track">
+                <div class="hero-slide"><img loading="lazy" decoding="async" src="imagem/voluntario.jpg" alt="Equipe de voluntários organizando doações" data-caption="Equipe de voluntários organizando doações"></div>
+                <div class="hero-slide"><img loading="lazy" decoding="async" src="imagem/voluntarios_group.jpg" alt="Grupo de voluntários em reunião" data-caption="Grupo de voluntários em reunião"></div>
+                <div class="hero-slide"><img loading="lazy" decoding="async" src="imagem/voluntario4.jpg" alt="Entrega de alimentos nas comunidades" data-caption="Entrega de alimentos nas comunidades"></div>
+                <div class="hero-slide"><img loading="lazy" decoding="async" src="imagem/voluntario_homem.jpg" alt="Voluntário distribuindo cestas" data-caption="Voluntário distribuindo cestas"></div>
+                <div class="hero-slide"><img loading="lazy" decoding="async" src="imagem/cadeirante.jpg" alt="Atendimento inclusivo" data-caption="Atendimento inclusivo: apoio a pessoas com mobilidade reduzida"></div>
+                <div class="hero-slide"><img loading="lazy" decoding="async" src="imagem/doacao_comida.jpg" alt="Arrecadação de alimentos" data-caption="Arrecadação de alimentos no ponto de coleta"></div>
+                <div class="hero-slide"><img loading="lazy" decoding="async" src="imagem/doacao_comida2.jpg" alt="Triagem de doações" data-caption="Triagem e separação de doações"></div>
+                <div class="hero-slide"><img loading="lazy" decoding="async" src="imagem/doacao_comida3.jpg" alt="Montagem de cestas" data-caption="Montagem de cestas básicas"></div>
+                <div class="hero-slide"><img loading="lazy" decoding="async" src="imagem/doacao_roupas.jpg" alt="Campanha de doação de roupas" data-caption="Campanha de doação de roupas"></div>
+                <div class="hero-slide"><img loading="lazy" decoding="async" src="imagem/donations.jpg" alt="Doações recebidas" data-caption="Doações recebidas e contabilizadas"></div>
+                <div class="hero-slide"><img loading="lazy" decoding="async" src="imagem/teste.jpg" alt="Voluntários em ação (evento)" data-caption="Voluntários em ação (evento local)"></div>
+            </div>
+        </div>
+
+        <div class="hero-content">
+            <h1>Nossas frentes contra a fome</h1>
+            <p>Saiba como organizamos doações, distribuímos alimentos e fortalecemos a segurança alimentar nas comunidades.</p>
+            <div class="hero-caption" id="heroCaption" aria-live="polite"></div>
+            <div class="hero-indicators" id="heroIndicators" aria-hidden="false"></div>
+        </div>
+    </section>
+
+    <!-- Sobre o Projeto -->
+    <section class="about">
+    <h2>Como Funciona</h2>
+    <p>Recebemos doações de alimentos e recursos, montamos cestas básicas e preparamos refeições em cozinhas comunitárias parceiras. Com apoio de voluntários, fazemos a triagem, logística e entrega às famílias cadastradas, priorizando quem está em maior vulnerabilidade.</p>
+
+    <h2>Para Que Serve</h2>
+    <p>Garantir comida na mesa hoje e autonomia amanhã. Promovemos segurança alimentar, combatemos o desperdício e estimulamos hábitos saudáveis com oficinas e orientação nutricional.</p>
+
+    <div class="impact-cards">
+            <div class="card">
+                <div class="card-icon">🧺</div>
+                <h3>Distribuição de Cestas</h3>
+                <p>Coleta, montagem e entrega de cestas básicas a famílias cadastradas nas comunidades atendidas.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">🍲</div>
+                <h3>Cozinhas Comunitárias</h3>
+                <p>Preparo e oferta de refeições quentes em parceria com espaços comunitários e doadores locais.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">🥗</div>
+                <h3>Educação Nutricional</h3>
+                <p>Oficinas de alimentação saudável, combate ao desperdício e aproveitamento integral dos alimentos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    
+    <!-- Nossos Resultados (Resumo) -->
+    <section class="results results-summary">
+        <div class="container">
+            <h2>Nossos Resultados</h2>
+            <p class="lead">Principais números alcançados com o apoio de voluntários e doadores.</p>
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-value" data-value="1240">1.240</div>
+                    <div class="stat-label">Famílias atendidas</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value" data-value="18500">18.500</div>
+                    <div class="stat-label">Refeições servidas</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value" data-value="320">320</div>
+                    <div class="stat-label">Voluntários ativos</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nossos Resultados (Histórico/Detalhes) -->
+    <section class="results results-detailed">
+        <div class="container">
+            <h3>Últimas ações</h3>
+            <ul class="recent-list">
+                <li><strong>Campanha Abril:</strong> 450 cestas distribuídas em 4 bairros.</li>
+                <li><strong>Cozinha Solidária:</strong> 3.200 refeições distribuídas no último trimestre.</li>
+                <li><strong>Oficinas Nutrição:</strong> 12 turmas com formação para preparo saudável.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Imagens animadas (carrossel) -->
+    <section class="gallery">
+        <div class="container">
+            <h2>Galeria</h2>
+            <div class="carousel" id="mainCarousel">
+                <button class="carousel-control prev" aria-label="Anterior">‹</button>
+                <div class="carousel-track">
+                    <div class="carousel-item">
+                        <figure>
+                            <img src="imagem/voluntario.jpg" alt="Equipe de voluntários organizando doações" loading="lazy" decoding="async" />
+                            <figcaption>Equipe de voluntários organizando doações</figcaption>
+                        </figure>
+                    </div>
+                    <div class="carousel-item">
+                        <figure>
+                            <img src="imagem/voluntarios_group.jpg" alt="Grupo de voluntários em reunião" loading="lazy" decoding="async" />
+                            <figcaption>Grupo de voluntários em reunião</figcaption>
+                        </figure>
+                    </div>
+                    <div class="carousel-item">
+                        <figure>
+                            <img src="imagem/voluntario4.jpg" alt="Entrega de alimentos nas comunidades" loading="lazy" decoding="async" />
+                            <figcaption>Entrega de alimentos nas comunidades</figcaption>
+                        </figure>
+                    </div>
+                    <div class="carousel-item">
+                        <figure>
+                            <img src="imagem/voluntario_homem.jpg" alt="Voluntário distribuindo cestas" loading="lazy" decoding="async" />
+                            <figcaption>Voluntário distribuindo cestas</figcaption>
+                        </figure>
+                    </div>
+                    <div class="carousel-item">
+                        <figure>
+                            <img src="imagem/cadeirante.jpg" alt="Atendimento inclusivo" loading="lazy" decoding="async" />
+                            <figcaption>Atendimento inclusivo: apoio a pessoas com mobilidade reduzida</figcaption>
+                        </figure>
+                    </div>
+                    <div class="carousel-item">
+                        <figure>
+                            <img src="imagem/doacao_comida.jpg" alt="Arrecadação de alimentos" loading="lazy" decoding="async" />
+                            <figcaption>Arrecadação de alimentos no ponto de coleta</figcaption>
+                        </figure>
+                    </div>
+                    <div class="carousel-item">
+                        <figure>
+                            <img src="imagem/doacao_comida2.jpg" alt="Triagem de doações" loading="lazy" decoding="async" />
+                            <figcaption>Triagem e separação de doações</figcaption>
+                        </figure>
+                    </div>
+                    <div class="carousel-item">
+                        <figure>
+                            <img src="imagem/doacao_comida3.jpg" alt="Montagem de cestas" loading="lazy" decoding="async" />
+                            <figcaption>Montagem de cestas básicas</figcaption>
+                        </figure>
+                    </div>
+                    <div class="carousel-item">
+                        <figure>
+                            <img src="imagem/doacao_roupas.jpg" alt="Campanha de doação de roupas" loading="lazy" decoding="async" />
+                            <figcaption>Campanha de doação de roupas</figcaption>
+                        </figure>
+                    </div>
+                    <div class="carousel-item">
+                        <figure>
+                            <img src="imagem/donations.jpg" alt="Doações recebidas" loading="lazy" decoding="async" />
+                            <figcaption>Doações recebidas e contabilizadas</figcaption>
+                        </figure>
+                    </div>
+                    <div class="carousel-item">
+                        <figure>
+                            <img src="imagem/teste.jpg" alt="Voluntários em ação (evento)" loading="lazy" decoding="async" />
+                            <figcaption>Voluntários em ação (evento local)</figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <button class="carousel-control next" aria-label="Próximo">›</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="cta-content">
+            <h2>Participe dos Nossos Projetos</h2>
+            <p>Seja voluntário e faça parte dessa transformação!</p>
+            <div class="cta-buttons">
+                <a href="cadastro.html" class="btn-primary">Cadastre-se</a>
+                <a href="index.html" class="btn-secondary">Voltar ao Início</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="contact">
+        <h2>Fale Conosco</h2>
+        <address>
+            <p>📍 <strong>Endereço:</strong> Passagem Bingo, 123 - Bom Clima, São Paulo/SP</p>
+            <p>📞 <strong>Telefone:</strong> (11) 99999-9999</p>
+            <p>✉️ <strong>E-mail:</strong> contato@alimentacaosolidaria.org.br</p>
+        </address>
+    </section>
+
+    <!-- Como Doar -->
+    <section class="donate" id="comoDoar">
+        <div class="container">
+            <h2>Como Doar</h2>
+            <p>Sua contribuição ajuda a montar cestas básicas, manter cozinhas comunitárias e financiar oficinas nutricionais.</p>
+            <div class="donate-block">
+                <div class="pix">
+                    <label>Chave PIX (CNPJ/CPF ou e-mail)</label>
+                    <div class="pix-value" id="pixKey">00.000.000/0000-00</div>
+                </div>
+                <div class="donate-actions">
+                    <button id="copyPix" class="btn-primary">Copiar PIX</button>
+                    <a href="#" id="donateNow" class="btn-secondary">Doar Agora</a>
+                </div>
+                <div id="copyFeedback" class="copy-feedback" aria-live="polite"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+    <p>&copy; 2025 Alimentação Solidária. Todos os direitos reservados.</p>
+        <p>Feito com ❤️ para transformar vidas</p>
+    </footer>
+
+    <!-- Lightbox for images -->
+    <div id="lightbox" role="dialog" aria-modal="true" aria-hidden="true">
+        <div class="content">
+            <button class="close" id="lightboxClose" aria-label="Fechar">✕</button>
+            <img id="lightboxImg" src="" alt="" />
+            <div class="caption" id="lightboxCaption"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
